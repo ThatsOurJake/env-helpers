@@ -1,6 +1,6 @@
 {
   "name": "env-helpers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "ThatsOurJake",
     "url": "https://github.com/ThatsOurJake"
@@ -8,6 +8,11 @@
   "repository": {
     "url": "https://github.com/ThatsOurJake/env-helpers"
   },
+  "keywords": [
+    "environment variables",
+    "util",
+    "env helper"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
