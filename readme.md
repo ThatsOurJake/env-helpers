@@ -3,6 +3,13 @@
 
 Functions to to help retrieving values from `process.env`.
 
+## Install
+```
+npm install --save env-helpers
+yarn add env-helpers
+pnpm add env-helpers 
+```
+
 ## Functions
 The functions are as follows:
 
