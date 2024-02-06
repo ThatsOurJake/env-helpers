@@ -1,4 +1,5 @@
 # Env Helpers
+[![npm version](https://badge.fury.io/js/env-helpers.svg)](https://badge.fury.io/js/env-helpers)
 
 Functions to to help retrieving values from `process.env`.
 
