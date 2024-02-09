@@ -1,6 +1,6 @@
 {
   "name": "env-helpers",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "author": {
     "name": "ThatsOurJake",
     "url": "https://github.com/ThatsOurJake"
@@ -13,8 +13,8 @@
     "util",
     "env helper"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf lib && tsc",
