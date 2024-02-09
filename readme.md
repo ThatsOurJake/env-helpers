@@ -22,8 +22,8 @@ function envStr(key: string, defaultValue?: string): string | undefined;
 
 **Usage**
 ```
-envStr('FOO')               // string | undefined
-envStr('FOO', 'Fallback')   // string
+envStr('FOO'): string | undefined
+envStr('FOO', 'Fallback'): string
 ```
 
 ### envInt
