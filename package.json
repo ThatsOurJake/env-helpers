@@ -1,6 +1,6 @@
 {
   "name": "env-helpers",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "ThatsOurJake",
     "url": "https://github.com/ThatsOurJake"
@@ -27,5 +27,8 @@
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
