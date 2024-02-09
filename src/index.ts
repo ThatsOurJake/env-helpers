@@ -16,9 +16,9 @@ export function envStr(key: string, defaultValue?: string) {
   return env(key, defaultValue)
 };
 
-export function envInt(key: string, radix: number, defaultValue: number): number;
-export function envInt(key: string, radix?: number, defaultValue?: number): number | undefined;
-export function envInt(key: string, radix: number = 10, defaultValue?: number) {
+export function envInt(key: string, defaultValue: number, radix?: number): number;
+export function envInt(key: string, defaultValue?: number, radix?: number): number | undefined;
+export function envInt(key: string, defaultValue?: number, radix: number = 10) {
   const value = env(key, defaultValue?.toString());
 
   if (!value) {

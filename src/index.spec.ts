@@ -55,13 +55,13 @@ describe('envInt', () => {
   });
 
   it('returns default value when passed if the key is not found in process', () => {
-    const value = envInt('unknown', 10, 20);
+    const value = envInt('unknown', 20);
 
     expect(value).toEqual(20);
   });
 
   it('returns the parsed value using the radix', () => {
-    const value = envInt('TEST_2', 16);
+    const value = envInt('TEST_2', undefined, 16);
 
     expect(value).toEqual(15);
   });
